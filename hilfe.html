@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hilfe · pINN</title>
+<meta name="description" content="Hilfe der App pINN.">
+<meta name="theme-color" content="#0A0A0A">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Hilfe · pINN">
+<meta property="og:description" content="Hilfe der App pINN.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pinn.social/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  @font-face { font-family: "Satoshi"; font-weight: 400; src: url(fonts/Satoshi-Regular.otf) format("opentype"); font-display: swap; }
+  @font-face { font-family: "Satoshi"; font-weight: 500; src: url(fonts/Satoshi-Medium.otf) format("opentype"); font-display: swap; }
+  @font-face { font-family: "Satoshi"; font-weight: 700; src: url(fonts/Satoshi-Bold.otf) format("opentype"); font-display: swap; }
+  @font-face { font-family: "Satoshi"; font-weight: 900; src: url(fonts/Satoshi-Black.otf) format("opentype"); font-display: swap; }
+  :root { color-scheme: dark; --bg: #0A0A0A; --card: #1C1C1E; --line: #2C2C2E; --fg: #FFFFFF; --muted: #8E8E93; --soft: #D1D1D6; --accent: #DEFF9A; --font: "Satoshi", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 760px; margin-inline: auto; padding-inline: 20px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px; }
+  .brand { font-weight: 900; font-size: 22px; letter-spacing: -0.03em; background: var(--accent); color: #0A0A0A; padding: 4px 14px; border-radius: 12px; text-decoration: none; }
+  .lang { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .lang button { font: 700 13px var(--font); color: var(--muted); background: none; border: 0; padding: 7px 12px; cursor: pointer; }
+  .lang button[aria-pressed="true"] { background: var(--card); color: var(--accent); }
+  nav.docs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  nav.docs a { font-weight: 700; font-size: 14px; color: var(--soft); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; }
+  nav.docs a[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #0A0A0A; }
+  h1 { font-weight: 900; font-size: clamp(34px, 7vw, 56px); line-height: 1; letter-spacing: -0.035em; margin: 44px 0 8px; }
+  .dated { color: var(--muted); font-size: 14px; margin: 0; }
+  section { margin-top: 34px; }
+  h2 { font-weight: 700; font-size: 21px; line-height: 1.25; margin: 0 0 10px; }
+  p { color: var(--soft); margin: 0 0 12px; overflow-wrap: anywhere; }
+  footer { margin-top: 64px; border-top: 1px solid var(--line); padding-block: 26px 44px; color: var(--muted); font-size: 14px; }
+  footer a { color: var(--soft); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">pINN</a>
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button type="button" id="lang-de" aria-pressed="true">DE</button>
+      <button type="button" id="lang-en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+  <nav class="docs">
+    <a href="datenschutz.html" data-de="Datenschutz" data-en="Privacy">Datenschutz</a>
+    <a href="nutzung.html" data-de="Nutzungsbedingungen" data-en="Terms">Nutzungsbedingungen</a>
+    <a href="impressum.html" data-de="Impressum" data-en="Imprint">Impressum</a>
+    <a href="hilfe.html" aria-current="page" data-de="Hilfe &amp;amp; Konto löschen" data-en="Help &amp;amp; delete account">Hilfe &amp; Konto löschen</a>
+  </nav>
+  <main>
+    <h1 data-de="Hilfe" data-en="Help">Hilfe</h1>
+    
+    <section>
+      <h2 data-de="Kontakt" data-en="Contact">Kontakt</h2>
+      <p data-de="Schreib uns an kontakt@pinn.social. Wir antworten so schnell wie möglich, auf Deutsch oder Englisch." data-en="Write to kontakt@pinn.social. We answer as quickly as we can, in German or English.">Schreib uns an kontakt@pinn.social. Wir antworten so schnell wie möglich, auf Deutsch oder Englisch.</p>
+    </section>
+    <section>
+      <h2 data-de="Konto löschen" data-en="Delete your account">Konto löschen</h2>
+      <p data-de="In der App: Öffne dein Profil, tippe oben rechts auf die Einstellungen und ganz unten auf „Konto löschen“. Dein Profil, deine Fotos, Freundschaften, Check-ins, Gutscheine, Treuekarten, Bewertungen und Chats werden sofort gelöscht." data-en="In the app: open your profile, tap the settings at the top right and then “Delete account” at the very bottom. Your profile, photos, friendships, check-ins, coupons, loyalty cards, ratings and chats are deleted at once.">In der App: Öffne dein Profil, tippe oben rechts auf die Einstellungen und ganz unten auf „Konto löschen“. Dein Profil, deine Fotos, Freundschaften, Check-ins, Gutscheine, Treuekarten, Bewertungen und Chats werden sofort gelöscht.</p>
+      <p data-de="Ohne App: Schreib von der E-Mail-Adresse deines Kontos an kontakt@pinn.social und bitte um Löschung. Wir löschen dein Konto innerhalb von 30 Tagen und bestätigen es dir." data-en="Without the app: write to kontakt@pinn.social from the email address of your account and ask for deletion. We delete your account within 30 days and confirm it to you.">Ohne App: Schreib von der E-Mail-Adresse deines Kontos an kontakt@pinn.social und bitte um Löschung. Wir löschen dein Konto innerhalb von 30 Tagen und bestätigen es dir.</p>
+      <p data-de="Meldungen über Missbrauch bleiben bis zu einem Jahr nach ihrer Bearbeitung gespeichert, auch wenn ein Konto gelöscht wurde." data-en="Reports about abuse are kept for up to one year after they were handled, even when an account was deleted.">Meldungen über Missbrauch bleiben bis zu einem Jahr nach ihrer Bearbeitung gespeichert, auch wenn ein Konto gelöscht wurde.</p>
+    </section>
+    <section>
+      <h2 data-de="Eine Kopie deiner Daten" data-en="A copy of your data">Eine Kopie deiner Daten</h2>
+      <p data-de="Du hast das Recht zu erfahren, welche Daten wir über dich gespeichert haben. Schreib uns von der E-Mail-Adresse deines Kontos an kontakt@pinn.social. Wir antworten innerhalb eines Monats." data-en="You have the right to know which data we hold about you. Write to kontakt@pinn.social from the email address of your account. We answer within one month.">Du hast das Recht zu erfahren, welche Daten wir über dich gespeichert haben. Schreib uns von der E-Mail-Adresse deines Kontos an kontakt@pinn.social. Wir antworten innerhalb eines Monats.</p>
+    </section>
+    <section>
+      <h2 data-de="Jemanden melden" data-en="Report someone">Jemanden melden</h2>
+      <p data-de="In der App kannst du jede Person blockieren und melden: im Chat, in einem Flash pINN und im Lokal. Rechtswidrige Inhalte kannst du uns auch an kontakt@pinn.social melden." data-en="In the app you can block and report anyone: in a chat, in a Flash pINN and at a venue. You can also report illegal content to kontakt@pinn.social.">In der App kannst du jede Person blockieren und melden: im Chat, in einem Flash pINN und im Lokal. Rechtswidrige Inhalte kannst du uns auch an kontakt@pinn.social melden.</p>
+    </section>
+  </main>
+  <footer>© 2026 pINN · Innsbruck · <a href="./" data-de="Zur Startseite" data-en="Back to the start">Zur Startseite</a></footer>
+</div>
+<script>
+  // The language stays as chosen on the start page
+  function setLang(next) {
+    document.documentElement.lang = next;
+    document.querySelectorAll('[data-de]').forEach(el => { el.innerHTML = el.dataset[next]; });
+    document.getElementById('lang-de').setAttribute('aria-pressed', String(next === 'de'));
+    document.getElementById('lang-en').setAttribute('aria-pressed', String(next === 'en'));
+    try { localStorage.setItem('pinn-lang', next); } catch (_) {}
+  }
+  document.getElementById('lang-de').addEventListener('click', () => setLang('de'));
+  document.getElementById('lang-en').addEventListener('click', () => setLang('en'));
+  try { if (localStorage.getItem('pinn-lang') === 'en') setLang('en'); } catch (_) {}
+</script>
+</body>
+</html>
